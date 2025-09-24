@@ -1,0 +1,18 @@
+today we are learning how to use the graphic user interface in gitbash
+we are using the command line to navigate folders
+
+git config --global user.name "Your Full Name"
+e.g. git config --global user.name "my GitHub name"
+
+git config --global user.email "your.email@example.com
+e.g. git cong --global user.email "gettopanaman@soon.com
+e.g. git config --global user.email "148924003+JToney93@users.noreply.github.com"
+
+
+echo "# 9.23.25_class7_1" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/JToney93/9.23.25_class7_1.git
+git push -u origin main
